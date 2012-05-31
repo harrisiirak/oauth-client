@@ -20,6 +20,11 @@ var client = oauth.createClient(oauth.Version.OAUTH1, {
 	}
 });
 
+console.log(client);
+client.getRequestToken(function() {
+
+});
+
 //console.log(client);
 
 app.listen(8000);
