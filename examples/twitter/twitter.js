@@ -14,14 +14,13 @@ var client = oauth.createClient(oauth.Version.OAUTH1, {
 	accessURL: 'https://twitter.com/oauth/access_token',
 	signatureMethod: oauth.Signature.HMACSHA1,
 	callback: 'http://127.0.0.1:8000/callback',
-	realm: 'Node.js OAuth Client',
 	headers: {
 
 	}
 });
 
-client.getRequestToken(function() {
-
+client.getRequestToken(function(error, accessToken, accessTokenSecret) {
+	console.log(arguments);
 });
 
 //console.log(client);
