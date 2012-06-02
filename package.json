@@ -1,0 +1,21 @@
+{
+	"name": "node-oauth-client",
+	"description": "Yet another Node.js OAuth client library",
+	"version": "0.1.0",
+	"author": {
+		"name": "Harri Siirak",
+		"email": "harri.siirak@gmail.com"
+	},
+	"devDependencies": {
+		"express": "2.5.0"
+	},
+	"keywords": [
+		"oauth",
+		"auth"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/harrisiirak/node-oauth-client.git"
+	},
+	"_id": "node-oauth-client@0.1.0"
+}
